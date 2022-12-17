@@ -11,7 +11,6 @@
     .place {
         grid-template-columns: fit-content(440px) 1fr;
         column-gap: 32px;
-        row-gap: 48px
     }
 }
 
@@ -19,11 +18,10 @@
     .place {
         grid-template-columns: fit-content(340px) 1fr;
         column-gap: 28px;
-        row-gap: 48px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
     .place {
         grid-template-columns: 1fr;
         gap: 32px;

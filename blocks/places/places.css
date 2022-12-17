@@ -3,17 +3,13 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     gap: 80px;
-    padding-right: 148px;
-    padding-left: 148px;
-    padding-top: 92px;  
-    padding-bottom: 92px;
+    padding: 92px 148px 92px;  
 }
 
 @media screen and (max-width: 1024px) {
     .places {
       padding-right: 48px;
       padding-left: 48px;
-      padding-bottom: 92px; 
     }
 }
 
@@ -21,12 +17,11 @@
     .places {
         padding-right: 24px;
         padding-left: 24px;
-        padding-bottom: 92px;
         gap: 72px; 
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
     .places {
         padding-right: 0;
         padding-left: 0;

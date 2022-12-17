@@ -9,16 +9,7 @@
 }
 
 .header__lang-link:hover {
-    text-decoration: underline;
     opacity: .8;
-}
-
-.header__lang-link:nth-child(2) {
-    margin-left: 18px;
-}
-
-.header__lang-link:nth-child(1) {
-    text-decoration: underline;
 }
 
 @media screen and (max-width: 767px) {

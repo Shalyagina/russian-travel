@@ -8,6 +8,7 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
+    border: 1px solid red;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,14 +17,4 @@
     }
 }
     
-@media screen and (max-width: 768px) {
-    .page {
-        width: 100%;
-    }
-}
 
-@media screen and (max-width: 320px) {
-    .page {
-        width: 100%;
-    }
-}

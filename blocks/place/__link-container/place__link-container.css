@@ -1,9 +1,9 @@
-.website {
+.place__link-container {
     align-self: end;
 }
 
 @media screen and (max-width: 767px) {
-    .website {
+    .place__link-container {
         padding-left: 16px;
     }
 }
