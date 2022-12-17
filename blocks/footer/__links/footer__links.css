@@ -1,0 +1,12 @@
+.footer__links {
+    display: flex;
+    align-items: center;   
+}
+
+@media screen and (max-width: 655px) {
+    .footer__links {
+        display: grid;
+        grid-template-columns: 1;
+        gap: 32px;
+    }
+}

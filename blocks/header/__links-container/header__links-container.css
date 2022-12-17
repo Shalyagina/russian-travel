@@ -1,0 +1,11 @@
+.header__links-container {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 6px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__links-container {
+        margin-bottom: 8px;
+    }
+}
